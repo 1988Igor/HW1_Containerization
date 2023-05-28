@@ -72,7 +72,7 @@ exit
 
 ## Пространство имен PID
 
-![](./Picture1.png)
+![](./Image.png)
 
 
 
