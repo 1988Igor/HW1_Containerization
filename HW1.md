@@ -1,14 +1,18 @@
 # Пространство имен NET
 
-root@gb-linux:/home/igor# unshare --net bash
-  root@gb-linux:/home/igor# ip a
+1. root@gb-linux:/home/igor# unshare --net bash
+
+2. root@gb-linux:/home/igor# ip a
+
   1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN group default qlen 
   1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-root@gb-linux:/home/igor#
-root@gb-linux:/home/igor# exit
+
+3. root@gb-linux:/home/igor#
+
+4. root@gb-linux:/home/igor# exit
 exit
-igor@gb-linux:~$ ip a
+5. igor@gb-linux:~$ ip a
 
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
